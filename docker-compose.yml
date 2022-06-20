@@ -1,8 +1,8 @@
 ---
 ping-pong:
   image: wrenywren/ping-pong
-  #ports:
-    #- "7777:80"
+  ports:
+    - "8080:80"
 
   environment:
 
